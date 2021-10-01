@@ -9,7 +9,7 @@ span {
 /*Contenedor del recuadro de entrada de datos*/
 .parent-box {
 
- display: grid;
+ display: flex;
  justify-content: center;
  align-content: center;
  padding-top: 5%;
@@ -18,7 +18,7 @@ span {
 
 /*Aqui se dibuja la caja con el input para dato*/
 .child-box {
- display: grid;
+ display: flex;
  justify-content: center;
  align-content: center;
  background-color: cadetblue;
